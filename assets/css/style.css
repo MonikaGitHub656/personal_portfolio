@@ -603,6 +603,22 @@ section {
   background-position: center;
 }
 
+.portfolio .projects h4 {
+  font-weight: 600;
+  padding-top: 10px;
+ 
+}
+
+.portfolio .projects button {
+  color: white;
+  background-color: #149ddd;
+}
+
+.portfolio .projects button:hover {
+  background-color:rgba(100, 212, 240, 0.95);
+}
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
