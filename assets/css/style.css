@@ -388,12 +388,6 @@ section {
   margin-top: -60px;
 }
 
-.about .about_text {
-  top: 0;
-  left: 0;
-  align-items: center;
-}
-
 #about .about_text i {
   font-size: 30px;
 }
@@ -407,16 +401,19 @@ section {
 .about .aboutme {
   justify-content: space-evenly;
   padding-top: 30px;
-}
-
-.about h2 {
-  padding-top: 30px;
-  padding-left: 30px;
+  
 }
 
 .about .about_row {
   margin-bottom: 80px;
 }
+
+.about .about-container {
+ position: absolute;
+ top: 50px;
+}
+
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
