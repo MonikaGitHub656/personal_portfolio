@@ -312,7 +312,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background:  #f5f8fd;
 }
 
 .section-title {
@@ -337,6 +337,7 @@ section {
   background: #149ddd;
   bottom: 0;
   left: 0;
+  padding-left: 20px;
 }
 
 .section-title p {
@@ -378,6 +379,44 @@ section {
   margin-bottom: 0;
 }
 
+/* MY ABOUT EDITS */
+.about .about_img {
+  background-image: url("../img/background/20opacity_domenico.png");
+  padding-top: calc(2 / 5 * 100%);
+  background-size: cover;
+  background-position: center center;
+  margin-top: -60px;
+}
+
+.about .about_text {
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+
+#about .about_text i {
+  font-size: 30px;
+}
+
+#about .about_text p {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+.about .aboutme {
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.about h2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.about .about_row {
+  margin-bottom: 80px;
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
