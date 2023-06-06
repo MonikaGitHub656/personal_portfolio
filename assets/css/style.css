@@ -388,6 +388,12 @@ section {
   margin-top: -60px;
 }
 
+#about .about_section {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
 #about .about_text i {
   font-size: 30px;
 }
@@ -398,20 +404,12 @@ section {
   padding-left: 30px;
 }
 
-.about .aboutme {
-  justify-content: space-evenly;
-  padding-top: 30px;
-  
-}
+
 
 .about .about_row {
   margin-bottom: 80px;
 }
 
-.about .about-container {
- position: absolute;
- top: 50px;
-}
 
 
 /*--------------------------------------------------------------
